@@ -72,31 +72,7 @@ body {
   font-weight: bold;
 }
 
-/* ICON BANNER */
-
-/* .iconcontainer {
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: 8rem;
-}
-
-.icon {
-  display: flex;
-  flex-flow: row nowrap;
-  padding: 3rem 0;
-  justify-content: center;
-}
-
-.paper {
-  width: 3.5rem;
-}
-
-.spacer {
-  width: 6rem;
-} */
-
+/*  PRODUCTS SECTION */
 .products {
   display: flex;
   justify-content: center;
