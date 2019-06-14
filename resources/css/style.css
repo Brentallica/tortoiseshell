@@ -32,9 +32,6 @@ body {
   color: white;
   position: relative;
   top: 1rem;
-}
-
-.container .company  {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,4 +70,56 @@ body {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
+}
+
+/* ICON BANNER */
+
+/* .iconcontainer {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 8rem;
+}
+
+.icon {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 3rem 0;
+  justify-content: center;
+}
+
+.paper {
+  width: 3.5rem;
+}
+
+.spacer {
+  width: 6rem;
+} */
+
+.products {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.product {
+  width: 20%;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6em;
+}
+
+.product-image img {
+  max-width: 5rem;
+}
+
+.description {
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
 }
