@@ -50,6 +50,10 @@ body {
   padding-right: 2rem;
 }
 
+.mobile {
+  display: none;
+}
+
 .company img {
   height: 1.5rem;
   padding-left: 2rem;
@@ -105,6 +109,7 @@ body {
 .information {
   display: flex;
   margin-bottom: 5rem;
+  margin-left: 5%;
 }
 
 .info {
@@ -139,4 +144,113 @@ footer img {
   height: 1.5rem;
   padding-left: 4rem;
   padding-right: 1rem;
+}
+
+/* MEDIA BREAKPOINT 1207PX TABLET */
+
+@media only screen and (max-width: 980px) {
+  .container {
+    margin: 0 auto;
+    max-width: 100%;
+    }
+
+  .main-banner {
+    height: 22rem;
+  }
+
+
+  .headline {
+    position: relative;
+    top: 5rem;
+    left: 22rem;
+    padding: 0.75rem 4rem;
+    width: auto;
+  }
+
+  .headline span {
+    font-size: 1.33rem;
+  }
+}
+
+/* MEDIA BREAKPOINT 754 PX MOBILE */
+
+@media only screen and (max-width: 754px) {
+
+  .main-banner {
+    height: 17rem;
+  }
+
+  .company {
+    top: 0;
+  }
+
+  .headline {
+    position: relative;
+    top: 9rem;
+    left: 0rem;
+    text-align: center;
+  }
+
+  .headline span {
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  .mobile {
+    display: inline;
+  }
+
+  .large {
+    display: none;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+
+  .product {
+    width: 20%;
+    margin-bottom: 1.54rem;
+  }
+
+  .product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .product-image img {
+    max-width: 4rem;
+  }
+
+  .information {
+    flex-direction: column;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 5rem;
+  }
+
+  .infoheader {
+    width: 100%;
+    text-align: center;
+  }
+
+  .infotext {
+    display: block;
+    margin-bottom: 4rem;
+  }
+
+  footer img {
+    margin: 0 auto;
+  }
+
 }
